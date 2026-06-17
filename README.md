@@ -9,7 +9,7 @@
 
 What is this project? Describe the interactive experience: what kind of game/experience it is, what the player is trying to do, and what makes it interesting. (2 to 4 sentences.)
 
-This project is a basketball game inspired by the love of the sport of the creator. Players experience fun precision aiming with sound effects and music. All the player will do is aim and shoot the ball into the hoop moving side to side. This is interesting because getting the timing and aiming right takes a while which keeps players intruiged.
+This project is a basketball game inspired by the love of the sport of the creator. Players experience fun precision aiming with sound effects and music. All the player will do is aim and shoot the ball into the hoop, moving side to side. This is interesting because getting the timing and aiming right takes a while, which keeps players intrigued.
 
 ## How to Run
 
@@ -54,7 +54,7 @@ List any images, sounds, fonts, or other files in the `assets/` folder, and wher
 
 State which code from class you used as a starting point, as required by the guardrails:
 
-- Started from `[boilerplate_pygame.py]` - used for the colors used for the ball and the texts seen. It helped with the title and the sizing of objects. It helped organize the main code; the main game loop and he game logic that consists the building of the ball, movement of ball and hoop, and everything else.
+- Started from `[boilerplate_pygame.py]` - used for the colors used for the ball and the texts seen. It helped with the title and the sizing of objects. It helped organize the main code, the main game loop, and the game logic that consists of the building of the ball, movement of the ball and hoop, and everything else.
 
 ## AI Disclosure
 
@@ -63,12 +63,12 @@ State which code from class you used as a starting point, as required by the gua
 | Lines / Commit | What it does (in my own words) | Why I used it | AI vs. my own |
 |----------------|--------------------------------|---------------|---------------|
 | `main.py` lines [x-y] / commit [hash] | [explain the code] | [why] | [pasted / adapted / written by me with AI help] |
-| 'main.py' lines [129-158] | / gravity and phyisics and ball going into the hoop and reseting the ball | I have used the help of AI in these lines because I had a hard time figuring it out through past lessons and notes. My understanding of the physics has now evolved through the help of AI. | All I could find and understand was the example on May 12st " def calc_grav(self):
+| 'main.py' lines [129-158] | / gravity and physics and ball going into the hoop and resetting the ball | I have used the help of AI in these lines because I had a hard time figuring it out through past lessons and notes. My understanding of physics has now evolved through the help of AI. | All I could find and understand was the example on May 12th" def calc_grav(self):
         """ Calculate effect of gravity. """
         if self.change_y == 0:
             self.change_y = 1
         else:
-            self.change_y += .35 ",         This part was my initial idea of gravity but it confused me so I had the help of AI mixed with my knowledge of gravity to create the ball movement of the game. In the end, the code that you see in lines 129-159 is the best that AI and I could come up with!
+            self.change_y += .35 ",         This part was my initial idea of gravity, but it confused me, so I had the help of AI mixed with my knowledge of gravity to create the ball movement of the game. In the end, the code that you see in lines 129-159 is the best that AI and I could come up with!
 
 ## Known Bugs / Limitations
 
@@ -78,7 +78,7 @@ State which code from class you used as a starting point, as required by the gua
 
 - harder and more levels
 - nicer ball or upgradable ball with effects
-- ability to pick different balls, backgrounds and music section
+- ability to pick different balls, backgrounds, and music sections
 - maps
 - buffs 
 
